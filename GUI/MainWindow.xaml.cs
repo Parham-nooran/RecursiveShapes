@@ -14,9 +14,9 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Controls.Primitives;
-using RecursiveShapes;
 
-namespace GUI
+
+namespace RecursiveShapes
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
