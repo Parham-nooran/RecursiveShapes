@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PresentationFramework" Version="4.6.0" />
+    <PackageReference Include="Shipwreck.Phash.PresentationCore" Version="0.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.CompositeUI">
+      <HintPath>..\..\..\..\..\..\ERPDlls\Microsoft.Practices.CompositeUI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
